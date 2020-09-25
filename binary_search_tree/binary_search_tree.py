@@ -77,21 +77,29 @@ class BSTNode:
         # if there is a right node, run the function on it.
             self.right.for_each(fn)
 
-    # # Part 2 -----------------------
+    # Part 2 -----------------------
 
-    # # Print all the values in order from low to high
-    # # Hint:  Use a recursive, depth first traversal
-    # def in_order_print(self):
-    #     pass
+    # Print all the values in order from low to high
+    # Hint:  Use a recursive, depth first traversal
+    def in_order_print(self):
+        # base case
+        # if there are no more nodes
+            # return
+
+        # if there is a node to the left
+            # call in order print on the left
+
+        
+        pass
 
     # # Print the value of every node, starting with the given node,
     # # in an iterative breadth first traversal
-    # def bft_print(self):
+    # def bft_print(self): # use a queue
     #     pass
 
     # # Print the value of every node, starting with the given node,
     # # in an iterative depth first traversal
-    # def dft_print(self):
+    # def dft_print(self): # use a stack
     #     pass
 
     # # Stretch Goals -------------------------
